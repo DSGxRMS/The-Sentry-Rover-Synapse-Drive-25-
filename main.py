@@ -6,8 +6,9 @@ import importlib
 import importlib.util
 import sys
 import math
-from physics import BicyclePhysics
-from practice_track import PRACTICE_TRACK, TIME_LIMIT
+from src.physics import BicyclePhysics
+from src.practice_track import PRACTICE_TRACK, TIME_LIMIT
+from pathlib import Path
 
 # Screen dimensions
 SCREEN_WIDTH, SCREEN_HEIGHT = 1200, 700
@@ -22,6 +23,10 @@ DASHBOARD_BG = (255, 255, 255, 220)
 DASHBOARD_BORDER = (100, 100, 100, 255)
 LABEL_COLOR = (50, 50, 50)
 
+
+
+CONTROLLER = Path(__file__).parent / "controller_template.py"
+
 class EcoGearSimulator:
     def __init__(self):
         pygame.init()
@@ -33,7 +38,7 @@ class EcoGearSimulator:
         self.monospace_font = pygame.font.SysFont('Courier New', 22, bold=True)
         
         # Load controller
-        self.controller_path = "controller_template.py"
+        self.controller_path = CONTROLLER
         self.load_controller()
         
         # Initialize physics
