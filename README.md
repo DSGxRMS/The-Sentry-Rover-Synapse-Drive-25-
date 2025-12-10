@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Eco-Gear Challenge Simulator - Technical Overview</title>
+
 </head>
 <body>
 
