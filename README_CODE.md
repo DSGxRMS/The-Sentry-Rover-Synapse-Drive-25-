@@ -12,7 +12,7 @@ A Python-based simulation environment for developing energy-efficient gear shift
 
 1. Navigate to the project directory:
    ```bash
-   cd TractionControlandHackathon
+   cd The-Sentry-Rover-Synapse-Drive-25-
    ```
 
 2. Install the required dependencies:
