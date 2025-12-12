@@ -13,6 +13,8 @@
   A Python-based simulation environment for developing
   <strong>energy-efficient gear-shifting strategies</strong>
   for a bicycle-style rover.
+
+  NOTE: <strong>Read the README_CODE.md file (right click and select open preview in VS Code) to understand how the simulator works.</strong>
 </p>
 
 <p>
